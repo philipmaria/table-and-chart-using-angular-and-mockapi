@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <span> CHARTS AND TABLES </span>
+
+        <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+
+                <span class="menu-spacer"></span>
+                <div>
+                    <button mat-icon-button (click)="onChartClicked()">
+                        <mat-icon >bar_chart</mat-icon>
+                    </button>
+                    <button mat-icon-button (click)="onTableClicked()">
+                        <mat-icon>table_chart</mat-icon>
+                    </button>
+                </div>
+                
+        </div>
+        
+    </mat-toolbar-row>
+
+</mat-toolbar>
